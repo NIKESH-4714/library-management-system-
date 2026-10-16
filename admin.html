@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showAdminBooks()">
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <button onclick="logout()">Logout</button>
+
+        <h2>Add Book</h2>
+        <input id="bookTitle" placeholder="Book Title">
+        <input id="bookAuthor" placeholder="Author">
+        <button onclick="addBook()">Add Book</button>
+
+        <h2>Manage Books</h2>
+        <div id="adminBooks"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
